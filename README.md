@@ -11,3 +11,10 @@ Komponen Pembangun :
 6. Eksternal Library dan Plugin:
    jQuery, untuk manipulasi DOM yang lebih sederhana dan Popper.js, untuk mendukung penempatan elemen seperti tooltip.
 7. PHP: Penggunaan PHP untuk backend dan pengelolaan halaman dinamis.
+
+Sumber Data:
+1. OpenStreetMap
+2. Database titik Fasilitas Kesehatan
+3. Ina Geoportal (Shapefile Batas Administrasi Surabaya, Shapefile Jalan, Shapefile Fasilitas Kesehatan)
+
+Hasil Produk:
