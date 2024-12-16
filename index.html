@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to HealthInfo Surabaya</title>
+    <!-- Link Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="plugin/leaflet-search-master/leaflet-search-master/dist/leaflet-search.min.css">
+    <script src="plugin/leaflet-search-master/leaflet-search-master/dist/leaflet-search.min.js"></script>
+
+    <!-- Custom CSS -->
+    <style>
+        .bg-light {
+            background-image: url('img/bgkes.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .bg-green {
+            background-color: rgba(73, 159, 50, 0.695) !important;
+        }
+        .btn-light {
+            background-color: #eeffe0;
+            color: #66ff7f;
+        }
+        .btn-light:hover {
+            background-color: #99ffa0;
+        }
+        footer {
+            background-color: rgba(73, 159, 50, 0.695);
+        }
+        h2, h5 {
+            color: #0b612d;
+        }
+        h1 {
+            color: #f8f5f7;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .card-body {
+            background-color: #eeffe0;
+        }
+        .feature-card {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .feature-card .card-body {
+            flex-grow: 1;
+        }
+        .button-container {
+            margin-top: 30px;
+        }
+        .row .col-md-4 {
+            display: block;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body class="bg-light">
+
+    <header class="bg-green text-white py-5">
+        <div class="container text-center">
+            <h1 class="display-4">HealthInfo Surabaya</h1>
+        </div>
+    </header>
+
+    <section class="bg-light py-5">
+        <div class="container text-center">
+            <h2>Fitur Akses Layanan Kesehatan</h2>
+            
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <div class="card feature-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Informasi</h5>
+                            <p class="card-text">Informasi mengenai data fasilitas kesehatan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card feature-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Lokasi Fasilitas Kesehatan</h5>
+                            <p class="card-text">Lokasi rumah sakit di Kota Surabaya yang mudah diakses</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card feature-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Suggest an edit</h5>
+                            <p class="card-text">Memberi masukan pada layanan Fasilitas Kesehatan di Kota Surabaya</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container text-center button-container">
+                <p class="text-center">Sistem WEBGIS menyediakan fasilitas kesehatan seperti rumah sakit, puskesmas, dan apotek dipetakan untuk memudahkan masyarakat dalam mengakses informasi tentang layanan kesehatan yang tersedia.Rumah sakit (RS) merupakan fasilitas yang menyediakan layanan perawatan intensif, rawat inap, dan fasilitas medis lengkap. Puskesmas, sebagai fasilitas kesehatan tingkat pertama yang memberikan layanan kesehatan dasar. Apotek menyediakan obat-obatan dan produk kesehatan lainnya.</p>
+            <p class="text-center">Pemetaan fasilitas-fasilitas ini dalam WEBGIS memudahkan masyarakat untuk menemukan lokasi terdekat dan mendapatkan informasi mengenai jenis layanan kesehatan yang dapat diakses di wilayah Surabaya.</p>
+                <!-- Link biasa menuju homepage.php -->
+                <a href="homepage.php" class="btn btn-light">See More Services</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-green text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 HealthInfo Surabaya by Regita</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
