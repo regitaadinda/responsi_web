@@ -18,4 +18,16 @@ Sumber Data:
 3. Ina Geoportal (Shapefile Batas Administrasi Surabaya, Shapefile Jalan, Shapefile Fasilitas Kesehatan)
 
 Hasil Produk:
+
 ![image](https://github.com/user-attachments/assets/a2d693d5-8851-4df1-80dd-bc151146292b)
+![image](https://github.com/user-attachments/assets/3f17ddc2-1038-41cd-92b7-52bef6ae697a)
+![image](https://github.com/user-attachments/assets/259f1e7b-6e61-4b82-af7d-4f096566d2a6)
+![image](https://github.com/user-attachments/assets/e1ea2e98-2135-4a87-9629-43299a0b6ff6)
+![image](https://github.com/user-attachments/assets/5cdecf9a-f01e-468c-b2db-603891bcf56a)
+![image](https://github.com/user-attachments/assets/4977bc2b-a53f-4385-9920-342a60c577b7)
+![image](https://github.com/user-attachments/assets/0217c5d5-3f89-45f3-a95f-777e2c26bb36)
+
+
+
+
+
