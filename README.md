@@ -9,6 +9,5 @@ Komponen Pembangun :
 4. Leaflet.js: Digunakan untuk peta interaktif, dilengkapi dengan plugin Leaflet Search untuk fitur pencarian lokasi.
 5. JavaScript: Digunakan untuk interaktivitas halaman, termasuk integrasi dengan plugin dan fitur dinamis lainnya.
 6. Eksternal Library dan Plugin:
-   jQuery: Untuk manipulasi DOM yang lebih sederhana.
-   Popper.js: Mendukung penempatan elemen seperti tooltip.
-9. PHP: Penggunaan PHP untuk backend dan pengelolaan halaman dinamis.
+   jQuery, untuk manipulasi DOM yang lebih sederhana dan Popper.js, untuk mendukung penempatan elemen seperti tooltip.
+7. PHP: Penggunaan PHP untuk backend dan pengelolaan halaman dinamis.
